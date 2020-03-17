@@ -2,6 +2,7 @@ require("minitest/autorun")
 require('minitest/reporters')
 require_relative('../river')
 require_relative('../bear')
+require_relative('../fish')
 
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
@@ -10,7 +11,12 @@ Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 class CustomerTest < MiniTest::Test
 
   def setup()
-    @river = River.new("Tweed", ['garrry', "jerry", 'jock', 'jeremiah'])
+    @fish1 = Fish.new("garrry")
+    @fish2 = Fish.new("jerry")
+    @fish3 = Fish.new("jock")
+    @fish4 = Fish.new("jeremiah")
+
+    @river = River.new("Tweed", [@fish1, @fish2, @fish3, @fish4])
 
 
 
