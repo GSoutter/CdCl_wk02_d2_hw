@@ -3,7 +3,7 @@
 
 Classes:
 
-  River(name, fish_no)
+  River(name, fish_array)
     >method: decrease fish
     >method: fish_count
 
@@ -16,10 +16,10 @@ Classes:
 
 
 steps:
-  1. create specs template
-  2. create river setup()
-  3. create river tests
-  4. create bear data
+  1. create specs template [done]
+  2. create river setup() [done]
+  3. create river tests [done]
+  4. create bear data [done]
   5. create and test bear methods.
 
 
