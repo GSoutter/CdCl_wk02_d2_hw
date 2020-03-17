@@ -1,0 +1,26 @@
+=begin
+
+
+Classes:
+
+  River(name, fish_no)
+    >method: decrease fish
+    >method: fish_count
+
+  bear(name)
+    >parameter: stomach = 0
+    >method: take fish from RIVER
+    >method: roar
+    >method: food_count()
+    >
+
+
+steps:
+  1. create specs template
+  2. create river setup()
+  3. create river tests
+  4. create bear data
+  5. create and test bear methods.
+
+
+=end
